@@ -7,11 +7,16 @@
     <img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg">
 </a>
 
-A simple Flask application that can be used to log and return HTTP requests. Useful for debugging API calls to third-party APIs or developing applications locally when you don't want to call real API endpoints.
+A simple Flask application that can be used to test HTTP calls. It simply logs
+out the request and request data then returns an object with the request
+information. Useful for debugging HTTP calls to third-party APIs by making the
+same calls to this server or developing applications locally when you don't
+want to call real API endpoints.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development.
+These instructions will get you a copy of the project up and running on your
+local machine for development.
 
 ### Prerequisites
 
@@ -102,8 +107,7 @@ json None
 
 ## Contributing
 
-Please read [CONTRIBUTING.md][contributing] for details
-on our code of conduct.
+Please read [CONTRIBUTING.md][contributing] for details on our code of conduct.
 
 ## Authors
 
@@ -111,7 +115,8 @@ on our code of conduct.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE][license] file for details
+This project is licensed under the MIT License - see the [LICENSE][license]
+file for details
 
 [contributing]: CONTRIBUTING.md
 [flask]: http://flask.pocoo.org/
