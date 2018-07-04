@@ -117,6 +117,6 @@ This project is licensed under the MIT License - see the [LICENSE][license] file
 [flask]: http://flask.pocoo.org/
 [github - cuttlesoft]: https://github.com/cuttlesoft
 [github - emily morehouse]: https://github.com/emilyemorehouse
-[license]: License
+[license]: LICENSE
 [pipenv]: https://docs.pipenv.org/
 [python]: http://python.org/
