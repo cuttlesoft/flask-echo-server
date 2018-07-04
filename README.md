@@ -122,23 +122,25 @@ Please read [CONTRIBUTING.md][contributing] for details on our code of conduct.
 
 ## Authors
 
-- **[Emily Morehouse][github - emily morehouse]** - [Cuttlesoft][github - cuttlesoft]
+- **[Emily Morehouse][emily morehouse - github]** - [Cuttlesoft][cuttlesoft - github]
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE][license]
-file for details
-
-[contributing]: CONTRIBUTING.md
-[flask]: http://flask.pocoo.org/
-[github - cuttlesoft]: https://github.com/cuttlesoft
-[github - emily morehouse]: https://github.com/emilyemorehouse
-[license]: LICENSE
-[pipenv]: https://docs.pipenv.org/
-[python]: http://python.org/
+file for details.
 
 ## Wanna Cuttle?
 
-- 🐙 [Cuttlesoft.com](https://cuttlesoft.com)
-- 🐦 [@cuttlesoft](https://twitter.com/cuttlesoft)
+- 🐙 [Cuttlesoft.com][cuttlesoft - website]
+- 🐦 [@cuttlesoft][cuttlesoft - twitter]
 - 📩 hello [at] cuttlesoft [dot] com
+
+[contributing]: CONTRIBUTING.md
+[cuttlesoft - github]: https://github.com/cuttlesoft
+[cuttlesoft - twitter]: https://twitter.com/cuttlesoft
+[cuttlesoft - website]: https://cuttlesoft.com
+[emily morehouse - github]: https://github.com/emilyemorehouse
+[flask]: http://flask.pocoo.org/
+[license]: LICENSE
+[pipenv]: https://docs.pipenv.org/
+[python]: http://python.org/
