@@ -23,21 +23,30 @@ local machine for development.
 - [Python 3.6+][python]
 - [Pipenv][pipenv]
 
-### Installing
+### Install Dependencies
 
 First, install dependencies:
 
 ```bash
-pipenv install
+$ pipenv install
+Creating a virtualenv for this project…
+...
+Virtualenv location: /Users/user/.virtualenvs/flask-echo-server-zyMB51yv
+Installing dependencies from Pipfile.lock (8a3288)…
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 6/6 — 00:00:04
+To activate this project's virtualenv, run the following:
+ $ pipenv shell
 ```
 
 Activate the virtual environment:
 
 ```bash
-pipenv shell
+$ pipenv shell
+Spawning environment shell (/bin/zsh). Use 'exit' to leave.
+(flask-echo-server-zyMB51yv) $
 ```
 
-## Usage
+### Start the Application
 
 Run the application:
 
@@ -50,6 +59,8 @@ $ export FLASK_ENV=development; flask run
  * Debugger is active!
  * Debugger PIN: XXX-XXX-XXX
 ```
+
+## Usage
 
 ### Example: POST JSON
 
