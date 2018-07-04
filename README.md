@@ -125,3 +125,9 @@ file for details
 [license]: LICENSE
 [pipenv]: https://docs.pipenv.org/
 [python]: http://python.org/
+
+## Wanna Cuttle?
+
+- 🐙 [Cuttlesoft.com](https://cuttlesoft.com)
+- 🐦 [@cuttlesoft](https://twitter.com/cuttlesoft)
+- 📩 hello [at] cuttlesoft [dot] com
