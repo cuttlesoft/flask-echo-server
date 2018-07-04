@@ -2,10 +2,11 @@ import json
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
+methods = ["GET", "POST", "PATCH", "DELETE"]
 
 
-@app.route("/", defaults={"path": ""})
-@app.route("/<path:path>")
+@app.route("/", methods=methods, defaults={"path": ""})
+@app.route("/<path:path>", methods=methods)
 def hello_world(path):
     print(f"*** Received data at: {path}")
     print("data", request.data)
@@ -15,7 +16,7 @@ def hello_world(path):
     return jsonify(
         {
             "endpoint": path,
-            "data": json.dumps(request.data.decode("utf-8")),
+            "data": request.data.decode("utf-8"),
             "form": request.form,
             "json": request.get_json(),
         }
