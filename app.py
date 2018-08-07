@@ -19,7 +19,7 @@ def hello_world(path):
     print("\n".join(wrap(request.data.decode())))
 
     print("\n** form:")
-    print(request.form)
+    pprint(request.form)
 
     print("\n** json:")
     pprint(j)
